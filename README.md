@@ -6,6 +6,10 @@ Here's an adjusted README for your current project:
 
 This project is a simple Django application with a GraphQL API for managing books.
 
+![img_1.png](img_1.png)
+
+![img.png](img.png)
+
 ## Commands
 
 ### 1. Set up the virtual environment
@@ -110,14 +114,6 @@ To create a superuser for the Django admin, run:
 
 ```bash
 python manage.py createsuperuser
-```
-
-### 10. Run the tests
-
-To run the tests:
-
-```bash
-python manage.py test
 ```
 
 ---
