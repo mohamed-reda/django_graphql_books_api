@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     # installed apps
     'books',
     'graphene_django',
+    'quiz',
 
 ]
 

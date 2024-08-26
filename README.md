@@ -6,9 +6,42 @@ Here's an adjusted README for your current project:
 
 This project is a simple Django application with a GraphQL API for managing books.
 
+## GraphQL Queries
+
+Use the `/graphql` endpoint to run GraphQL queries like this:
+
+```graphql
+{
+  allBooks {
+    id
+    title
+    excerpt
+  }
+}
+```
+
 ![img_1.png](img_1.png)
 
 ![img.png](img.png)
+
+## Queries
+
+**GraphQL Queries**
+
+Use the `/` endpoint to run GraphQL queries like this:
+
+```graphql
+query{
+  allQuestions(id:1){
+    title
+  }
+  allAnswers(id:1){
+    answerText
+  }
+}
+```
+
+![img_2.png](img_2.png)
 
 ## Commands
 
@@ -117,20 +150,6 @@ python manage.py createsuperuser
 ```
 
 ---
-
-**GraphQL Queries**
-
-Use the `/graphql` endpoint to run GraphQL queries like this:
-
-```graphql
-{
-  allBooks {
-    id
-    title
-    excerpt
-  }
-}
-```
 
 ---
 
