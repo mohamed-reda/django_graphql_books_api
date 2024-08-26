@@ -1,7 +1,3 @@
-Here's an adjusted README for your current project:
-
----
-
 # Django GraphQL Books API
 
 This project is a simple Django application with a GraphQL API for managing books.
